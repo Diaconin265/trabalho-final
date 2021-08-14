@@ -1,0 +1,51 @@
+.cabecalho {
+    text-align: center;
+
+    &-link {
+        padding-left: 10 px;
+        padding-right: 10 px;
+    }
+}
+.estilo {
+    font-size: large;
+    
+    &-big {font-size: xx-large;
+        font-weight: 500;
+    }
+    
+}
+.link {    
+    font-style: italic;
+    color: black;
+    visibility: visible;
+}
+.button {
+    border-radius: 3 px;
+    margin: 5 px;
+}
+
+.trave {
+    padding-left: 10 px;
+    padding-right: 2px;
+}
+.right {
+    margin-right: 5px;
+}
+.left {
+    margin-left: -60px;    
+}
+.round {
+    border-radius: 10px;
+}
+.search:active {
+    border: 0px solid transparent;
+
+}
+.inst {
+    visibility: hidden;
+    transition-duration: 3s;
+
+    &:hover {
+        visibility: visible;
+    }   
+}

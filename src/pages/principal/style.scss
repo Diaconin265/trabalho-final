@@ -1,0 +1,56 @@
+.pri {
+    text-align: center;
+}
+.imagem {
+    margin-left: 150px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 250px;
+    height:175px; 
+}
+.round {
+        border-radius: 20px;
+}
+.space {
+    width: 30px;
+    display: inline;
+}
+.right {
+    margin-right: 0px;
+}
+.jedi {
+    height: 100%;
+    width: 100%;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;  
+}
+.mais {
+    font-style: italic;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 125px;
+}
+.anima {
+    transition-duration: 1s;
+    &:hover {
+        width: 20%;
+        height: 20%;
+    }
+}
+.link {
+    text-decoration: none;
+    text-shadow: 5px;
+    text-decoration:none;
+}
+@media screen and (max-width: 768px) {
+    .imagem {
+        margin-left: 25px;
+        margin-right: 105px;
+        margin-bottom: 50px;
+        width: 300px;
+        height:175px;
+        
+    }    
+}
+@media (max-width: 1080px) {
+    
+}
