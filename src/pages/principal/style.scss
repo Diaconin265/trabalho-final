@@ -1,17 +1,17 @@
-.pri {
-    text-align: center;
-}
 .imagem {
-    margin-left: 150px;
-    margin-right: 5px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 15px;
+    margin-bottom: -70px;
+    margin-top: 150px;
     width: 250px;
     height:175px; 
+    background-color: rgb(255, 255, 255);
+    position: relative;
 }
 .round {
         border-radius: 20px;
 }
+//
 .space {
     width: 30px;
     display: inline;
@@ -22,35 +22,64 @@
 .jedi {
     height: 100%;
     width: 100%;
-    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;  
 }
 .mais {
     font-style: italic;
     font-family: 'MonteCarlo', cursive;
     font-size: 125px;
+    text-decoration-line: none;
 }
 .anima {
     transition-duration: 1s;
     &:hover {
-        width: 20%;
-        height: 20%;
+        width: 22%;
+        height: 23%;
     }
 }
 .link {
     text-decoration: none;
     text-shadow: 5px;
-    text-decoration:none;
+    text-decoration-style:none;
 }
+
+
 @media screen and (max-width: 768px) {
     .imagem {
         margin-left: 25px;
-        margin-right: 105px;
-        margin-bottom: 50px;
-        width: 300px;
-        height:175px;
+        margin-right: 0.8px;
+        margin-bottom: 5.1px;
+        width: 148.75px;
+        height: 104.12px;
         
+    }
+    .anima {
+        display:block;
+    }
+    .mais {
+        font-style: italic;
+        font-family: 'MonteCarlo', cursive;
+        font-size: 75px;
+        text-decoration-line: none;
     }    
 }
-@media (max-width: 1080px) {
-    
+
+
+@media (min-width: 769px) and (max-width: 1080px) {
+    .imagem {
+        //valores são a media do tamanho original e o tamanho de cell
+        margin-left: 30px;
+        margin-right: 1.5px;
+        margin-bottom: 17px;
+        width: 199px;
+        height: 139px;       
+    }
+    .anima {
+        display:block;
+    }
+    .mais {
+        font-style: italic;
+        font-family: 'MonteCarlo', cursive;
+        font-size: 75px;
+        text-decoration-line: none;
+    }    
 }

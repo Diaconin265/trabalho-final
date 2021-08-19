@@ -1,12 +1,12 @@
 import react, {FC} from "react";
 import './style.scss';
-import Violao from "../images/violao.png";
-import Guitarra from "../images/guitar.png";
-import Violino from "../images/violino.png";
-import Percussao from "../images/baqueta.png";
-import Edicao from "../images/pc.png";
-import Gravacao from "../images/gravacao.png";
-import Sopro from "../images/saxofone.png";
+import Violao from "../../imagens do projeto/main_images/violao.png";
+import Guitarra from "../../imagens do projeto/main_images/guitar.png";
+import Violino from "../../imagens do projeto/main_images/violino.png";
+import Percussao from "../../imagens do projeto/main_images/baqueta.png";
+import Edicao from "../../imagens do projeto/main_images/pc.png";
+import Gravacao from "../../imagens do projeto/main_images/gravacao.png";
+import Sopro from "../../imagens do projeto/main_images/saxofone.png";
 import routerConfig from "../../routerConfig";
 
 const Principal: FC = () => {

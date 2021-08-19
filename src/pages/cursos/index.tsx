@@ -1,7 +1,7 @@
 import react, {FC} from "react";
 import './style.scss';
-import Propaganda_1 from "../images/propaganda1.png";
-import Propaganda_2 from "../images/propaganda2.jpg";
+import Propaganda_1 from "../../imagens do projeto/ads_curso/propaganda1.png";
+import Propaganda_2 from "../../imagens do projeto/ads_curso/propaganda2.jpg";
 
 const Cursos: FC = () => {
     const Ads = [

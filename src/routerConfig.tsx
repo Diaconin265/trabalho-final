@@ -10,7 +10,7 @@ import Percus from "./pages/instrumentos/percussao/index";
 import Edi from "./pages/instrumentos/edicao/index";
 import Rec from "./pages/instrumentos/gravacao/index";
 import Sax from "./pages/instrumentos/sopro/index";
-import Mais from "./pages/instrumentos/mais/"
+import Mais from "./pages/instrumentos/mais/index";
 import { Component } from "react";
 
 const routerConfig = [
@@ -42,42 +42,42 @@ const routerConfig = [
     },
     {
         path: '/viola',
-        Component: Viola,
+        component: Viola,
         exact: true
     },
     {
         path: '/guitarras',
-        Component: Guitarras,
+        component: Guitarras,
         exact: true
     },
     {
         path: '/violinos',
-        Component: Violinos,
+        component: Violinos,
         exact: true
     },
     {
         path: '/percu',
-        Component: Percus,
+        component: Percus,
         exact: true
     },
     {
         path: '/edit',
-        Component: Edi,
+        component: Edi,
         exact: true
     },
     {
         path: '/rec',
-        Component: Rec,
+        component: Rec,
         exact: true
     },
     {
         path: '/sopro',
-        Component: Sax,
+        component: Sax,
         exact: true
     },
     {
         path: '/mais',
-        Component: Mais,
+        component: Mais,
         exact: true
     }
 ]

@@ -11,31 +11,40 @@
     
     &-big {font-size: xx-large;
         font-weight: 500;
+        color: rgb(114, 114, 114);
     }
-    
 }
 .link {    
     font-style: italic;
-    color: black;
+    color: rgb(168, 168, 168);
     visibility: visible;
 }
 .button {
     border-radius: 3 px;
     margin: 5 px;
 }
-
-.trave {
-    padding-left: 10 px;
-    padding-right: 2px;
-}
-.right {
-    margin-right: 5px;
+.navbar {
+    background-color: rgba(0, 0, 0, 0.726);
+    
 }
 .left {
-    margin-left: -60px;    
+    margin-left: 30px;    
 }
-.round {
-    border-radius: 10px;
+.roundes {
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+.rounds {
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.lup {
+    width: 75px;
+    margin-left: 0px;
+    height: 30px;
+}
+.imag {
+    height: 25px;
 }
 .search:active {
     border: 0px solid transparent;
@@ -48,4 +57,21 @@
     &:hover {
         visibility: visible;
     }   
+}
+
+@media screen and (max-width:768px) {
+    .estilo {
+        font-size: medium;
+        &-big {
+            font-size: large;
+            font-weight: 250px;
+        }
+    }
+    .left {
+        display: none;
+    }
+}
+
+@media (min-width:769px) and (max-width:1080px) {
+    
 }
